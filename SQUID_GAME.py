@@ -1,7 +1,7 @@
 import random as r
 s=0
 b=0
-l=["BGM",'KESH','HEMANAADHAN','KISHORE A','KISHORE N']
+l=list(map(str,input("Enter player names : ").split()))
 while s==0:
     print(l[b])
     print('\n\t\t\t',r.randint(0,100)*2)
